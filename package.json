@@ -1,0 +1,18 @@
+{
+  "name": "homework_7.6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chrome_headless": "cypress run --headless --browser chrome",
+    "chrome_headed": "cypress run --headed --browser chrome",
+    "electron_headless": "cypress run --headless --browser electron",
+    "electron_headed": "cypress run --headed --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
