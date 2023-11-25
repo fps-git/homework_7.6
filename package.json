@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "chrome_headless": "cypress run --headless --browser chrome",
-    "chrome_headed": "cypress run --headed --browser chrome",
-    "electron_headless": "cypress run --headless --browser electron",
-    "electron_headed": "cypress run --headed --browser electron"
+    "chrome_headless": "cypress run --headless --browser chrome --config-file laptop.config.js",
+    "chrome_headed": "cypress run --headed --browser chrome --config-file mobile.config.js",
+    "electron_headless": "cypress run --headless --browser electron --config-file laptop.config.js",
+    "electron_headed": "cypress run --headed --browser electron --config-file mobile.config.js"
   },
   "keywords": [],
   "author": "",
